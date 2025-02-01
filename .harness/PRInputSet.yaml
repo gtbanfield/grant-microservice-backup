@@ -1,0 +1,14 @@
+inputSet:
+  name: PR-InputSet
+  identifier: PRInputSet
+  orgIdentifier: default
+  projectIdentifier: IDA
+  pipeline:
+    identifier: grantmicroservice
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
