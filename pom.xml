@@ -84,7 +84,7 @@
                         <url>https://nexus:8443/repository/maven-releases</url>
                 </repository>
                 <snapshotRepository>
-                        <id>nexus-releases</id>
+                        <id>nexus-snapshots</id>
                         <name>Snapshots</name>
                         <url>https://nexus:8443/repository/maven-snapshots/</url>
                         <uniqueVersion>false</uniqueVersion>
