@@ -77,5 +77,11 @@
 		</plugins>
 	</build>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-site</id>
+            <url>https://nexus:8443/repository/maven-releases/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
